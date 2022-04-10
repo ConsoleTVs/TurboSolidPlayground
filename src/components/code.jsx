@@ -1,6 +1,9 @@
-import hljs from 'highlight.js'
+import hljs from 'highlight.js/lib/core'
 import 'highlight.js/styles/xcode.css'
 import { onMount } from 'solid-js'
+import js from 'highlight.js/lib/languages/JavaScript'
+
+hljs.registerLanguage('jsx', js)
 
 const Code = (props) => {
   let element = undefined
