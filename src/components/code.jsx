@@ -1,7 +1,7 @@
 import hljs from 'highlight.js/lib/core'
 import 'highlight.js/styles/xcode.css'
 import { onMount } from 'solid-js'
-import js from 'highlight.js/lib/languages/JavaScript'
+import js from 'highlight.js/lib/languages/javascript'
 
 hljs.registerLanguage('jsx', js)
 
