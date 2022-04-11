@@ -1,7 +1,7 @@
 /* @refresh reload */
-import { lazy } from 'solid-js'
+import { lazy, Suspense } from 'solid-js'
 import { render } from 'solid-js/web'
-import { Router, Routes, Route, Suspense } from 'solid-app-router'
+import { Router, Routes, Route } from 'solid-app-router'
 import { TurboContext } from 'turbo-solid'
 import Layout from './layouts/main'
 
